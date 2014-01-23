@@ -1,2 +1,2 @@
-sample-OverlayChildView-ios
+sample-ios-OverlayChildView
 ===========================
