@@ -488,7 +488,6 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
-				DEAD_CODE_STRIPPING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					/Users/Shared/CoronaLabs/Frameworks,
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -498,7 +497,6 @@
 				INFOPLIST_FILE = "OverlayView/OverlayView-Info.plist";
 				OTHER_LDFLAGS = (
 					"-ObjC",
-					"-all_load",
 					"-lobjc",
 					"-lsqlite3",
 				);
@@ -517,7 +515,6 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
-				DEAD_CODE_STRIPPING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					/Users/Shared/CoronaLabs/Frameworks,
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -527,7 +524,6 @@
 				INFOPLIST_FILE = "OverlayView/OverlayView-Info.plist";
 				OTHER_LDFLAGS = (
 					"-ObjC",
-					"-all_load",
 					"-lobjc",
 					"-lsqlite3",
 				);

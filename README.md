@@ -24,12 +24,21 @@ In the code, the transparent background effect is achieved by:
 * setting the background color of the CoronaView to a clear color (Obj-C)
 * telling OpenGL to use a clear color (Lua)
 
+
 # Setup
 
 The sample expects `CoronaKit.framework` to be installed at `/Users/Shared/CoronaLabs/Frameworks/CoronaKit.framework`. 
+
 
 # Requirements
 
 * Xcode 5
 * Mac OS X 10.8 or higher
 
+
+# Version Notes
+
+If you are using an older version of CoronaKit (2014.2174 and earlier), you will need to modify the Xcode project with the following settings:
+
+* Dead Code Stripping: `NO`
+* Other Linker Flags: `-ObjC -all_load -lobjc -lsqlite3`
