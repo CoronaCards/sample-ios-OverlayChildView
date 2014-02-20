@@ -27,7 +27,7 @@ In the code, the transparent background effect is achieved by:
 
 # Setup
 
-The sample expects `CoronaKit.framework` to be installed at `/Users/Shared/CoronaLabs/Frameworks/CoronaKit.framework`. 
+The sample expects `CoronaKit.framework` to be installed at `/Users/Shared/CoronaLabs/ios/CoronaKit.framework`. 
 
 
 # Requirements
