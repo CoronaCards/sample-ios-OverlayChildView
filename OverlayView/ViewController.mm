@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CoronaKit/CoronaKit.h"
 
 @interface ViewController ()
 
