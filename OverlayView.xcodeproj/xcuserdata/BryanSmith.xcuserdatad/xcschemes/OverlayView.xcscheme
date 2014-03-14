@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "071BF5BB189059AC0032F15D"
-               BuildableName = "OverlayView.temp_caseinsensitive_rename.app"
+               BuildableName = "OverlayView.app"
                BlueprintName = "OverlayView"
                ReferencedContainer = "container:OverlayView.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "071BF5BB189059AC0032F15D"
-            BuildableName = "OverlayView.temp_caseinsensitive_rename.app"
+            BuildableName = "OverlayView.app"
             BlueprintName = "OverlayView"
             ReferencedContainer = "container:OverlayView.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "071BF5BB189059AC0032F15D"
-            BuildableName = "OverlayView.temp_caseinsensitive_rename.app"
+            BuildableName = "OverlayView.app"
             BlueprintName = "OverlayView"
             ReferencedContainer = "container:OverlayView.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "071BF5BB189059AC0032F15D"
-            BuildableName = "OverlayView.temp_caseinsensitive_rename.app"
+            BuildableName = "OverlayView.app"
             BlueprintName = "OverlayView"
             ReferencedContainer = "container:OverlayView.xcodeproj">
          </BuildableReference>
