@@ -40,9 +40,6 @@
 		071BF613189059AD0032F15D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF5C3189059AC0032F15D /* UIKit.framework */; };
 		071BF61B189059AD0032F15D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 071BF619189059AD0032F15D /* InfoPlist.strings */; };
 		071BF61D189059AD0032F15D /* OverlayViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BF61C189059AD0032F15D /* OverlayViewTests.m */; };
-		07BF6DF018906BB100FB440E /* brush.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BF6DED18906BB100FB440E /* brush.png */; };
-		07BF6DF118906BB100FB440E /* config.lua in Resources */ = {isa = PBXBuildFile; fileRef = 07BF6DEE18906BB100FB440E /* config.lua */; };
-		07BF6DF218906BB100FB440E /* main.lua in Resources */ = {isa = PBXBuildFile; fileRef = 07BF6DEF18906BB100FB440E /* main.lua */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,9 +91,6 @@
 		071BF618189059AD0032F15D /* OverlayView.temp_caseinsensitive_renameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OverlayView.temp_caseinsensitive_renameTests-Info.plist"; sourceTree = "<group>"; };
 		071BF61A189059AD0032F15D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		071BF61C189059AD0032F15D /* OverlayViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlayViewTests.m; sourceTree = "<group>"; };
-		07BF6DED18906BB100FB440E /* brush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brush.png; path = Corona/brush.png; sourceTree = "<group>"; };
-		07BF6DEE18906BB100FB440E /* config.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = config.lua; path = Corona/config.lua; sourceTree = "<group>"; };
-		07BF6DEF18906BB100FB440E /* main.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.lua; path = Corona/main.lua; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,7 +193,6 @@
 				071BF5FB189059AC0032F15D /* ViewController.h */,
 				071BF5FC189059AC0032F15D /* ViewController.mm */,
 				071BF609189059AD0032F15D /* Images.xcassets */,
-				071BF5FE189059AC0032F15D /* Corona */,
 				071BF5EA189059AC0032F15D /* Supporting Files */,
 			);
 			path = OverlayView;
@@ -214,16 +207,6 @@
 				071BF5F1189059AC0032F15D /* OverlayView-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		071BF5FE189059AC0032F15D /* Corona */ = {
-			isa = PBXGroup;
-			children = (
-				07BF6DED18906BB100FB440E /* brush.png */,
-				07BF6DEE18906BB100FB440E /* config.lua */,
-				07BF6DEF18906BB100FB440E /* main.lua */,
-			);
-			name = Corona;
 			sourceTree = "<group>";
 		};
 		071BF616189059AD0032F15D /* OverlayViewTests */ = {
@@ -254,6 +237,7 @@
 				071BF5B8189059AC0032F15D /* Sources */,
 				071BF5B9189059AC0032F15D /* Frameworks */,
 				071BF5BA189059AC0032F15D /* Resources */,
+				0759238418DCBDFB00DFF6C1 /* Copy Corona Resources */,
 			);
 			buildRules = (
 			);
@@ -320,12 +304,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07BF6DF018906BB100FB440E /* brush.png in Resources */,
 				071BF60A189059AD0032F15D /* Images.xcassets in Resources */,
 				071BF5FA189059AC0032F15D /* Main_iPad.storyboard in Resources */,
-				07BF6DF218906BB100FB440E /* main.lua in Resources */,
 				071BF5F7189059AC0032F15D /* Main_iPhone.storyboard in Resources */,
-				07BF6DF118906BB100FB440E /* config.lua in Resources */,
 				071BF5EE189059AC0032F15D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +320,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0759238418DCBDFB00DFF6C1 /* Copy Corona Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Corona Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Copying Corona\"\nditto -V \"$PROJECT_DIR\"/Corona \"$TARGET_BUILD_DIR\"/\"$EXECUTABLE_FOLDER_PATH\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		071BF5B8189059AC0032F15D /* Sources */ = {
