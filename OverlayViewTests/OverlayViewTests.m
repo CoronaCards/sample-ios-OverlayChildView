@@ -1,18 +1,15 @@
 //
-//  ChildviewTests.m
-//  ChildviewTests
-//
-//  Created by Bryan Smith on 1/22/14.
-//  Copyright (c) 2014 Bryan Smith. All rights reserved.
+//  OverlayViewTests.m
+//  OverlayViewTests
 //
 
 #import <XCTest/XCTest.h>
 
-@interface ChildViewTests : XCTestCase
+@interface OverlayViewTests : XCTestCase
 
 @end
 
-@implementation ChildViewTests
+@implementation OverlayViewTests
 
 - (void)setUp
 {
