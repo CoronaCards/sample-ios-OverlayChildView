@@ -29,11 +29,12 @@ In the code, the transparent background effect is achieved by:
 
 The sample expects `CoronaCards.framework` to be installed at `/Users/Shared/CoronaLabs/ios/CoronaCards.framework`. 
 
+See [CoronaCards Setup (iOS)](http://docs.coronalabs.com/coronacards/ios/setup.html) for more info.
+
 
 # Requirements
 
-* Xcode 5
-* Mac OS X 10.8 or higher
+See [System Requirements](http://docs.coronalabs.com/coronacards/ios/setup.html#system-requirements).
 
 
 # Version Notes
