@@ -3,6 +3,10 @@ sample-ios-OverlayChildView
 
 This example shows you how to __overlay__ a CoronaView on top of an existing view hierarchy. The background of the CoronaView is transparent so that you can see the existing views underneath.
 
+### `license.ccdata`
+
+In order for any CoronaCards project to work, you must put a valid `license.ccdata` file into the `Corona`  folder (near `main.lua`), otherwise you'll get a black screen and error message in the console.
+
 # Code Overview
 
 ## CoronaView setup (Obj-C)
