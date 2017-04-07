@@ -40,6 +40,7 @@
 		071BF613189059AD0032F15D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF5C3189059AC0032F15D /* UIKit.framework */; };
 		071BF61B189059AD0032F15D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 071BF619189059AD0032F15D /* InfoPlist.strings */; };
 		071BF61D189059AD0032F15D /* OverlayViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BF61C189059AD0032F15D /* OverlayViewTests.m */; };
+		E67999621BFD371300300582 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E67999611BFD371200300582 /* GameController.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		071BF618189059AD0032F15D /* OverlayView.temp_caseinsensitive_renameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OverlayView.temp_caseinsensitive_renameTests-Info.plist"; sourceTree = "<group>"; };
 		071BF61A189059AD0032F15D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		071BF61C189059AD0032F15D /* OverlayViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlayViewTests.m; sourceTree = "<group>"; };
+		E67999611BFD371200300582 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E67999621BFD371300300582 /* GameController.framework in Frameworks */,
 				071BF5C2189059AC0032F15D /* CoreGraphics.framework in Frameworks */,
 				071BF5E8189059AC0032F15D /* SystemConfiguration.framework in Frameworks */,
 				071BF5DC189059AC0032F15D /* MediaPlayer.framework in Frameworks */,
@@ -157,6 +160,7 @@
 		071BF5BE189059AC0032F15D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E67999611BFD371200300582 /* GameController.framework */,
 				070F39BA18D1356900BC2BEE /* CoronaCards.framework */,
 				071BF5BF189059AC0032F15D /* Foundation.framework */,
 				071BF5C1189059AC0032F15D /* CoreGraphics.framework */,
@@ -485,6 +489,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Shared/CoronaLabs/ios,
@@ -511,6 +516,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Shared/CoronaLabs/ios,
